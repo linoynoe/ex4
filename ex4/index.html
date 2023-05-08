@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header><b><h1>Welcome to happiness</b></h1></header>
+        
+        <form action = "http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" autocomplete="on">
+        <p>Full Name: <input type="text"class ="form-control" name="fullName" placeholder="my name" value=""></p>
+        <p>Password: <input type="password" class ="form-control" name="pass" placeholder="My password" value=""></p>
+        <p>Email: <input type="email" class ="form-control" name="mail" placeholder="My Email" value=""></p>
+        <p>Website: <input type="url" class ="form-control" name="website" placeholder="https://" value=""></p>
+        <p>Telephone: <input type="tel" class ="form-control" name="phone" placeholder="My Cellphone" value=""></p>
+        <p>How many cups of coffee you drink at day? <input type="number"  class ="form-control" name="coffee"  value=""></p>   
+        <p><label>Tempratura: <input type="range" class="form-range" name="temper" value="" min="0" max="100"></label>
+        </p>
+        
+        <div><p>Address:  <textarea class="form-control" name="address" placeholder="Enter your address" id="floatingTextarea"></textarea></p>
+        </div>
+        <br>
+            <h4>Choose 3 interests</h4>
+        <label>Netflix  <input type="checkbox" class="form-check-input" name="interests[]" value="netflix"></label>&nbsp;
+        <label>friends <input type="checkbox" class="form-check-input" name="interests[]" value="friends"></label>&nbsp;    
+        <label>Workout <input type="checkbox" class="form-check-input" name="interests[]" value="workout"></label>&nbsp;
+        <label>Compter games <input type="checkbox" class="form-check-input" name="interests[]" value="workout"></label>&nbsp;
+        <label>Dance <input type="checkbox" class="form-check-input" name="interests[]" value="workout"></label>&nbsp;
+       <br>
+    
+        <br>
+        <h4>Choose your gender</h4>
+        <div>male <input type="radio" name="gender" value="male"></div>
+        <div>female<input type="radio" name="gender" value="female"></div>
+        <div>other<input type="radio" name="gender" value="female"></div>
+        
+        <br>
+        <label>Age:
+            <select name="age" class="form-select">
+              <option value="23" selected>23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="4">27</option>
+              <option value="4">28</option>
+              <option value="4">29</option>
+              <option value="4">30</option>
+              <option value="4">31</option>
+              <option value="4">32</option>
+              <option value="4">33</option>
+              <option value="4">34</option>
+              <option value="4">35</option>
+              <option value="4">36</option>
+              <option value="4">37</option>
+              <option value="4">38</option>
+            </select>
+        </label>
+    
+        <br>
+        <br><input type="submit" class="btn btn-primary" value="sumbit">
+
+        
+    </form>    
+    </body>
+    </html>
+
+    

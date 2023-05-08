@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+.form-control
+{
+    width: 450px;
+    height: 40px;
+    
+    
+}
+header {
+    display: flex;
+    justify-content:left;
+    margin-bottom: 10px;
+}
+
+
+body{
+ 
+
+ font-size: 20px;   
+ margin-left: 10px;
+
+ font-family: 'Amiko';
+ margin-top: 50px;
+}
+
+.interests1{
+   top: 50px;
+   display: block;
+}
+
+.dress{
+    font-size: 20px;   
+    margin-left: 10px;
+    font-family: 'Amiko';
+    margin-top: 50px;
+    width: 500px;
+    height: 80;
+}
